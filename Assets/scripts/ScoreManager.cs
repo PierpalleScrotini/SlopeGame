@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public int score = 0;
+    public float score = 0f;
     public float multiplier = 1f;
 
     public GameObject player;
@@ -17,7 +17,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        multiplier = playerRb.linearVelocity.z / 10;
-        score += (int)(multiplier);
+        multiplier = playerRb.linearVelocity.z / 100;
+        score += (multiplier);
     }
 }

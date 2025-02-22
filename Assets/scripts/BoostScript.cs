@@ -1,17 +1,12 @@
-using Mono.Cecil.Cil;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class NewPartTriggerScript : MonoBehaviour
+public class BoostScript : MonoBehaviour
 {
-    public MapGeneratorScript generator;
-    public GameObject attachedPart;
-    public GameObject triggerMesh;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -22,14 +17,10 @@ public class NewPartTriggerScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.name == "PlayerBall")
         {
-            generator.createNewPart();
-
-            Destroy(attachedPart);
-            Destroy(this.gameObject);
+            Rigidbody rigidbody = other.GetComponent<Rigidbody>();
+            rigidbody.linearVelocity += new Vector3(0, -5, 10);
         }
     }
-
 }

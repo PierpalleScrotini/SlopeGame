@@ -8,8 +8,6 @@ public class UIscript : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text speedText;
 
-    public GameObject analogSpeedDial;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,8 +17,17 @@ public class UIscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.SetText(managerScript.score.ToString());
-        speedText.SetText(((int)managerScript.playerRb.linearVelocity.z).ToString());
-        analogSpeedDial.transform.rotation = Quaternion.Euler(0,0, managerScript.playerRb.linearVelocity.z * -3);
+        scoreText.SetText(((int)managerScript.score).ToString());
+        speedText.SetText(((int)(managerScript.playerRb.linearVelocity.magnitude * 3.6)).ToString());
+
+        if (managerScript.playerRb.linearVelocity.z > 99)
+        {
+            speedText.color = Color.red;
+        }
+        else
+        {
+            speedText.color = Color.white;
+        }
+
     }
 }
