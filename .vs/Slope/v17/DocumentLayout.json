@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\unityProjects\\Slope\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|F:\\unityProjects\\Slope\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|f:\\unityprojects\\slope\\assets\\scripts\\mapgeneratorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapgeneratorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|F:\\unityProjects\\Slope\\assets\\scripts\\newparttriggerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newparttriggerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|F:\\unityProjects\\Slope\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|F:\\unityProjects\\Slope\\assets\\scripts\\uiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|F:\\unityProjects\\Slope\\assets\\scripts\\bindcameratoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C91BA96-D3C3-45C7-753E-68E8D623432C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bindcameratoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIscript.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\UIscript.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\UIscript.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\UIscript.cs",
+              "RelativeToolTip": "Assets\\scripts\\UIscript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T23:04:27.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ScoreManager.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\ScoreManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T22:39:02.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPartTriggerScript.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\NewPartTriggerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\NewPartTriggerScript.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\NewPartTriggerScript.cs",
+              "RelativeToolTip": "Assets\\scripts\\NewPartTriggerScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:28:53.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapGeneratorScript.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\MapGeneratorScript.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MapGeneratorScript.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\MapGeneratorScript.cs",
+              "RelativeToolTip": "Assets\\scripts\\MapGeneratorScript.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:43:49.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:03:14.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BindCameraToPlayer.cs",
+              "DocumentMoniker": "F:\\unityProjects\\Slope\\Assets\\scripts\\BindCameraToPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\BindCameraToPlayer.cs",
+              "ToolTip": "F:\\unityProjects\\Slope\\Assets\\scripts\\BindCameraToPlayer.cs",
+              "RelativeToolTip": "Assets\\scripts\\BindCameraToPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T17:56:50.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
