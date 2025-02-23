@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     bool alive = true;
     public GameObject particles;
+    public GameObject killBrick;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -62,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             minZSpeed = scoreManager.score * 0.005f;
         }
 
+        killBrick.transform.position = new Vector3(this.transform.position.x, killBrick.transform.position.y, this.transform.position.z);
         if (Physics.Raycast(this.transform.position, new Vector3(0, -1, 0), 1)) 
         {
             if (rb.linearVelocity.z > 99)
@@ -72,7 +74,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 rb.linearVelocity += new Vector3(0, 0, 0.3f);
             }
-            
+
+            killBrick.transform.position = new Vector3(this.transform.position.x, this.transform.position.y - 25, this.transform.position.z);
         }
     }
 }
